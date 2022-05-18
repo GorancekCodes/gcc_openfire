@@ -1,6 +1,6 @@
 # gcc_openfire
 This is simple script for FiveM that enables you to create openfire zones.
-This is relly handy in RP server so people can shot wihout any problems in that zone.
+This is handy in RP server so people can shot wihout any problems in that zone.
 
 This script is relly easy to configure zones etc.
 
