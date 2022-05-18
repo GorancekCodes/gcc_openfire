@@ -1,6 +1,9 @@
 This is simple script for FiveM that enables you to create openfire zones.
 This is handy in RP server so people can shot wihout any problems in that zone.
 
+You need to have installed PNotify to make this script to work
+https://github.com/Nick78111/pNotify
+
 This script is really easy to configure zones etc.
 
 Of you need any help add me on discord : GoRaNcEk#5215
