@@ -13,7 +13,7 @@ local closestZone = 1
 
 Citizen.CreateThread(function()
 	while not NetworkIsPlayerActive(PlayerId()) do
-		Citizen.Wait(0)
+		Wait(0)
 	end
 	
 	while true do
@@ -27,17 +27,17 @@ Citizen.CreateThread(function()
 				closestZone = i
 			end
 		end
-		Citizen.Wait(15000)
+		Wait(15000)
 	end
 end)
 
 Citizen.CreateThread(function()
 	while not NetworkIsPlayerActive(PlayerId()) do
-		Citizen.Wait(0)
+		Wait(0)
 	end
 	
 	while true do
-		Citizen.Wait(0)
+		Wait(0)
 		local player = GetPlayerPed(-1)
 		local x,y,z = table.unpack(GetEntityCoords(player, true))
 		local dist = Vdist(zones[closestZone].x, zones[closestZone].y, zones[closestZone].z, x, y, z)
