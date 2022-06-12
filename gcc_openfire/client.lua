@@ -41,12 +41,14 @@ Citizen.CreateThread(function()
 		local player = GetPlayerPed(-1)
 		local x,y,z = table.unpack(GetEntityCoords(player, true))
 		local dist = Vdist(zones[closestZone].x, zones[closestZone].y, zones[closestZone].z, x, y, z)
-	
+
+-- You can change text and color here --	
+
 		if dist <= 50.0 then
 			if not notifIn then
 				NetworkSetFriendlyFireOption(false)
 				TriggerEvent("pNotify:SendNotification",{
-					text = "<b style='color:#ff0000'>You just entered OpenFire Zone</b>",
+					text = "<b style='color:#ffff00'>You just entered OpenFire Zone</b>",
 					type = "error",
 					timeout = (3000),
 					layout = "center",
@@ -59,7 +61,7 @@ Citizen.CreateThread(function()
 			if not notifOut then
 				NetworkSetFriendlyFireOption(true)
 				TriggerEvent("pNotify:SendNotification",{
-					text = "<b style='color:#ff0000'>You just exited OpenFire Zone</b>",
+					text = "<b style='color:#ffff00'>You just left OpenFire Zone</b>",
 					type = "error",
 					timeout = (3000),
 					layout = "center",
