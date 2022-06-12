@@ -1,16 +1,24 @@
-This is simple script for FiveM that enables you to create openfire zones.
-This is handy in RP server so people can shot wihout any problems in that zone.
+# GorancekCodes OpenFire
 
-You need to have installed PNotify to make this script to work
-https://github.com/Nick78111/pNotify
+## 🖤 What does this script do.
 
-This script is really easy to configure zones etc.
+* It is simple script that displays when you enter OpenFire zone.
 
-Of you need any help add me on discord : GoRaNcEk#5215
+## 💻 Prerequisites
 
-Pictures :
+* You need to follow this TOS.
+* You cannot sell script of I did not give you any perm.
+* You cannot say that you made script. Leave credits of you edited script,
 
-https://cdn.discordapp.com/attachments/909433632102449182/976481466764656670/unknown.png
-https://cdn.discordapp.com/attachments/909433632102449182/976481420576981022/unknown.png
+## 🚀 Installation
 
-! YOU CANNOT SELL THIS SCRIPT OR RE-PUBLISH THIS WIHOUT MY PERMISSION !
+* Extract WinRAR File.
+* Add Script to your resources folders.
+* Open Server.CFG and add line "ensure gcc_openfire"
+
+## 🖤 Credits
+
+* Script was made by GorancekCodes. My inspiration was slovenian server called "BlueSkyRP".
+* You can use this script on your server.
+* Please dont sell script ;)
+* Part of script was taken from SafeZone script found on FiveM Forums.
