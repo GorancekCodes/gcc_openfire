@@ -1,6 +1,6 @@
 # GorancekCodes OpenFire
 
-## 🖤 What does this script do.
+## 📌 What does this script do.
 
 * It is simple script that displays when you enter OpenFire zone.
 
