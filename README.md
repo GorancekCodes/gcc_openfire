@@ -1,5 +1,7 @@
 # GorancekCodes OpenFire
 
+## This script isnt maintained anymore as of 5.08.2023
+
 ## 📌 What does this script do.
 
 * It is simple script that displays when you enter OpenFire zone.
@@ -18,7 +20,7 @@
 
 ## 🖤 Credits
 
-* Script was made by GorancekCodes. My inspiration was slovenian server called "BlueSkyRP".
+* Script was made by GorancekCodes.
 * You can use this script on your server.
 * Please dont sell script ;)
 * Part of script was taken from SafeZone script found on FiveM Forums.
